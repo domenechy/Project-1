@@ -1,0 +1,59 @@
+body {
+    background-color: black;
+    color: white;
+}
+
+
+h1 { font-size: 30pt;
+    margin-left: 15px;
+    font-style: italic;
+    font-family: 'Times New Roman';
+    color: #099EA5;
+}
+
+ ul {
+    font-size: 35pt;
+    font-family: 'impact, fantasy';
+    list-style-type: none;
+    background-color: #9BD5D5;  
+    overflow: hidden;
+    padding: 0;
+    margin: 0;
+}
+
+
+ .nav_links li{
+    float: left;
+    width: 33%; /* evenly space out tab links */
+}
+
+.nav_links a {
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 15px;
+    text-decoration: none;  /* this gets rid of the underline on the hyperlinks */
+}
+
+.nav_links li a:hover {
+    background-color: #099EA5;   
+}
+
+#copyright{
+    position:fixed; 
+    bottom: 10px;
+    left: 15px;
+}
+
+#mypict{
+    float: right;
+    margin-right: 175px;
+    border-radius: 50%; /* this gives my picture an oval shape*/
+    overflow: hidden;   
+}
+
+#mail{
+  float: right;
+  margin-top: 15px;
+  margin-right: 1075px;
+}
